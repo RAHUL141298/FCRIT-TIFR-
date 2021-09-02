@@ -1,0 +1,1534 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR01
+U 1 1 5F40348D
+P 5650 4000
+F 0 "#PWR01" H 5650 3750 50  0001 C CNN
+F 1 "GND" H 5655 3827 50  0000 C CNN
+F 2 "" H 5650 4000 50  0001 C CNN
+F 3 "" H 5650 4000 50  0001 C CNN
+	1    5650 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SamacSys_Parts:CRCW060312K7FKEA R1
+U 1 1 5F405F44
+P 3900 2100
+F 0 "R1" H 4250 2000 50  0000 C CNN
+F 1 "12.7k" H 4250 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4450 2150 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 4450 2050 50  0001 L CNN
+F 4 "Vishay CRCW Series Thick Film Surface Mount Resistor 0603 Case 12.7k +/-1% 0.1W +/-100ppm/C" H 4450 1950 50  0001 L CNN "Description"
+F 5 "0.5" H 4450 1850 50  0001 L CNN "Height"
+F 6 "Vishay" H 4450 1750 50  0001 L CNN "Manufacturer_Name"
+F 7 "CRCW060312K7FKEA" H 4450 1650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "CRCW060312K7FKEA" H 4450 1550 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 4450 1450 50  0001 L CNN "Arrow Price/Stock"
+F 10 "71-CRCW0603-12.7K-E3" H 4450 1350 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW0603-12.7K-E3" H 4450 1250 50  0001 L CNN "Mouser Price/Stock"
+	1    3900 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4350 3950 4350
+Wire Wire Line
+	3950 4350 3950 4450
+Wire Wire Line
+	3950 4550 4050 4550
+Wire Wire Line
+	4050 4450 3950 4450
+Connection ~ 3950 4450
+Wire Wire Line
+	3950 4450 3950 4550
+Wire Wire Line
+	5450 2450 5550 2450
+Wire Wire Line
+	5450 2550 5550 2550
+Wire Wire Line
+	5550 2550 5550 2450
+Connection ~ 5550 2450
+Wire Wire Line
+	5550 2450 5650 2450
+Wire Wire Line
+	4050 2850 3950 2850
+Wire Wire Line
+	3950 2850 3950 2950
+Wire Wire Line
+	3950 3050 4050 3050
+Wire Wire Line
+	4050 2950 3950 2950
+Connection ~ 3950 2950
+Wire Wire Line
+	3950 2950 3950 3050
+Wire Wire Line
+	4050 3250 3950 3250
+Wire Wire Line
+	3950 3250 3950 3350
+Wire Wire Line
+	3950 3450 4050 3450
+Wire Wire Line
+	4050 3350 3950 3350
+Connection ~ 3950 3350
+Wire Wire Line
+	3950 3350 3950 3450
+$Comp
+L SamacSys_Parts:C0603C103K5RACTU C3
+U 1 1 5F4403E4
+P 4000 1800
+F 0 "C3" H 4250 2050 50  0000 C CNN
+F 1 "10nF" H 4250 1950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4350 1850 50  0001 L CNN
+F 3 "" H 4350 1750 50  0001 L CNN
+F 4 "0603 X7R ceramic capacitor, 50V 10nF Kemet 0603 10nF Ceramic Multilayer Capacitor, 50V dc, 125C, X7R Dielectric, +/-10% SMD" H 4350 1650 50  0001 L CNN "Description"
+F 5 "0.87" H 4350 1550 50  0001 L CNN "Height"
+F 6 "80-C0603C103K5R" H 4350 1450 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C103K5RACTU?qs=aZBT8IJKz4hu1X55tMAU6Q%3D%3D" H 4350 1350 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 4350 1250 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0603C103K5RACTU" H 4350 1150 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:CC0603JRNPO9BN100 C4
+U 1 1 5F4396F2
+P 6750 4200
+F 0 "C4" V 6950 4000 50  0000 C CNN
+F 1 "10pF" V 7050 4000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 4250 50  0001 L CNN
+F 3 "" H 7100 4150 50  0001 L CNN
+F 4 "CAPACITOR, 0603 10pF +/-5% 50V" H 7100 4050 50  0001 L CNN "Description"
+F 5 "" H 7100 3950 50  0001 L CNN "Height"
+F 6 "603-C0603JRNPO9BN100" H 7100 3850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-C0603JRNPO9BN100" H 7100 3750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 7100 3650 50  0001 L CNN "Manufacturer_Name"
+F 9 "CC0603JRNPO9BN100" H 7100 3550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6750 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SamacSys_Parts:ERA-2AEB512X R2
+U 1 1 5F407222
+P 6500 3650
+F 0 "R2" V 6700 3500 50  0000 C CNN
+F 1 "5.1k" V 6800 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7050 3700 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/ERA-2AEB512X.pdf" H 7050 3600 50  0001 L CNN
+F 4 "Panasonic ERA Series Thin Film Surface Mount Resistor 0402 Case 5.1k +/-0.1% 63mW +/-25ppm/C" H 7050 3500 50  0001 L CNN "Description"
+F 5 "0.4" H 7050 3400 50  0001 L CNN "Height"
+F 6 "667-ERA-2AEB512X" H 7050 3300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-2AEB512X" H 7050 3200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 7050 3100 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERA-2AEB512X" H 7050 3000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6500 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 3450 5500 3450
+Wire Wire Line
+	5500 3450 5500 3400
+Wire Wire Line
+	5500 3350 5450 3350
+Wire Wire Line
+	5600 3400 5500 3400
+Connection ~ 5500 3400
+Wire Wire Line
+	5500 3400 5500 3350
+$Comp
+L Device:L L2
+U 1 1 5F4A442C
+P 6250 5100
+F 0 "L2" V 6440 5100 50  0000 C CNN
+F 1 "3.3uH" V 6349 5100 50  0000 C CNN
+F 2 "SamacSys_Parts:SRP1038C4R7M" H 6250 5100 50  0001 C CNN
+F 3 "~" H 6250 5100 50  0001 C CNN
+	1    6250 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5F4A4FE8
+P 5550 2050
+F 0 "L1" V 5740 2050 50  0000 C CNN
+F 1 "3.3uH" V 5649 2050 50  0000 C CNN
+F 2 "SamacSys_Parts:SRP1038C4R7M" H 5550 2050 50  0001 C CNN
+F 3 "~" H 5550 2050 50  0001 C CNN
+	1    5550 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SamacSys_Parts:CC0603JRNPO9BN100 C5
+U 1 1 5F4ADB91
+P 1950 4100
+F 0 "C5" V 2150 4300 50  0000 C CNN
+F 1 "0.906pF" V 2250 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2300 4150 50  0001 L CNN
+F 3 "" H 2300 4050 50  0001 L CNN
+F 4 "CAPACITOR, 0603 10pF +/-5% 50V" H 2300 3950 50  0001 L CNN "Description"
+F 5 "" H 2300 3850 50  0001 L CNN "Height"
+F 6 "603-C0603JRNPO9BN100" H 2300 3750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-C0603JRNPO9BN100" H 2300 3650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 2300 3550 50  0001 L CNN "Manufacturer_Name"
+F 9 "CC0603JRNPO9BN100" H 2300 3450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1950 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:PCF0805R-2K55BI R4
+U 1 1 5F4B6D5D
+P 1850 3950
+F 0 "R4" H 2200 4050 50  0000 C CNN
+F 1 "117.48k" H 2200 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2400 4000 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PCF0805R-2K55BI.pdf" H 2400 3900 50  0001 L CNN
+F 4 "WELWYN - PCF0805R-2K55BI - RES, 2K55, 0.1%, 0.1W, 0805, THIN FILM" H 2400 3800 50  0001 L CNN "Description"
+F 5 "0.65" H 2400 3700 50  0001 L CNN "Height"
+F 6 "756-PCF0805R2K55BI" H 2400 3600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=756-PCF0805R2K55BI" H 2400 3500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "WELWYN" H 2400 3400 50  0001 L CNN "Manufacturer_Name"
+F 9 "PCF0805R-2K55BI" H 2400 3300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1850 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:CC0603JRNPO9BN100 C8
+U 1 1 5F4B91C0
+P 1050 4100
+F 0 "C8" V 1250 3900 50  0000 C CNN
+F 1 "206.2pF" V 1350 3900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 4150 50  0001 L CNN
+F 3 "" H 1400 4050 50  0001 L CNN
+F 4 "CAPACITOR, 0603 10pF +/-5% 50V" H 1400 3950 50  0001 L CNN "Description"
+F 5 "" H 1400 3850 50  0001 L CNN "Height"
+F 6 "603-C0603JRNPO9BN100" H 1400 3750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-C0603JRNPO9BN100" H 1400 3650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 1400 3550 50  0001 L CNN "Manufacturer_Name"
+F 9 "CC0603JRNPO9BN100" H 1400 3450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1050 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5F4BB52B
+P 3950 2750
+F 0 "#PWR09" H 3950 2500 50  0001 C CNN
+F 1 "GND" V 3955 2577 50  0000 C CNN
+F 2 "" H 3950 2750 50  0001 C CNN
+F 3 "" H 3950 2750 50  0001 C CNN
+	1    3950 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:CC0603JRNPO9BN100 C7
+U 1 1 5F4BF005
+P 2000 2950
+F 0 "C7" V 2200 2750 50  0000 C CNN
+F 1 "0.218pF" V 2300 2750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2350 3000 50  0001 L CNN
+F 3 "" H 2350 2900 50  0001 L CNN
+F 4 "CAPACITOR, 0603 10pF +/-5% 50V" H 2350 2800 50  0001 L CNN "Description"
+F 5 "" H 2350 2700 50  0001 L CNN "Height"
+F 6 "603-C0603JRNPO9BN100" H 2350 2600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-C0603JRNPO9BN100" H 2350 2500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 2350 2400 50  0001 L CNN "Manufacturer_Name"
+F 9 "CC0603JRNPO9BN100" H 2350 2300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2000 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:CC0603JRNPO9BN100 C10
+U 1 1 5F4C0E9B
+P 1100 2950
+F 0 "C10" V 1350 3150 50  0000 C CNN
+F 1 "37.45pF" V 1450 3150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1450 3000 50  0001 L CNN
+F 3 "" H 1450 2900 50  0001 L CNN
+F 4 "CAPACITOR, 0603 10pF +/-5% 50V" H 1450 2800 50  0001 L CNN "Description"
+F 5 "" H 1450 2700 50  0001 L CNN "Height"
+F 6 "603-C0603JRNPO9BN100" H 1450 2600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-C0603JRNPO9BN100" H 1450 2500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 1450 2400 50  0001 L CNN "Manufacturer_Name"
+F 9 "CC0603JRNPO9BN100" H 1450 2300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1100 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:CC0603JRNPO9BN100 C1
+U 1 1 5F4ED442
+P 1800 2400
+F 0 "C1" H 2150 2450 50  0000 C CNN
+F 1 "1uF" H 1950 2450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2150 2450 50  0001 L CNN
+F 3 "" H 2150 2350 50  0001 L CNN
+F 4 "CAPACITOR, 0603 10pF +/-5% 50V" H 2150 2250 50  0001 L CNN "Description"
+F 5 "" H 2150 2150 50  0001 L CNN "Height"
+F 6 "603-C0603JRNPO9BN100" H 2150 2050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-C0603JRNPO9BN100" H 2150 1950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 2150 1850 50  0001 L CNN "Manufacturer_Name"
+F 9 "CC0603JRNPO9BN100" H 2150 1750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1800 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:PCF0805R-2K55BI R6
+U 1 1 5F4BFC22
+P 1900 2850
+F 0 "R6" H 2250 2950 50  0000 C CNN
+F 1 "485k" H 2250 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2450 2900 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PCF0805R-2K55BI.pdf" H 2450 2800 50  0001 L CNN
+F 4 "WELWYN - PCF0805R-2K55BI - RES, 2K55, 0.1%, 0.1W, 0805, THIN FILM" H 2450 2700 50  0001 L CNN "Description"
+F 5 "0.65" H 2450 2600 50  0001 L CNN "Height"
+F 6 "756-PCF0805R2K55BI" H 2450 2500 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=756-PCF0805R2K55BI" H 2450 2400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "WELWYN" H 2450 2300 50  0001 L CNN "Manufacturer_Name"
+F 9 "PCF0805R-2K55BI" H 2450 2200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1900 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:PCF0805R-2K55BI R8
+U 1 1 5F500DD1
+P 6700 4700
+F 0 "R8" H 7050 4800 50  0000 C CNN
+F 1 "2.55k" H 7050 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7250 4750 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PCF0805R-2K55BI.pdf" H 7250 4650 50  0001 L CNN
+F 4 "WELWYN - PCF0805R-2K55BI - RES, 2K55, 0.1%, 0.1W, 0805, THIN FILM" H 7250 4550 50  0001 L CNN "Description"
+F 5 "0.65" H 7250 4450 50  0001 L CNN "Height"
+F 6 "756-PCF0805R2K55BI" H 7250 4350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=756-PCF0805R2K55BI" H 7250 4250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "WELWYN" H 7250 4150 50  0001 L CNN "Manufacturer_Name"
+F 9 "PCF0805R-2K55BI" H 7250 4050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C13
+U 1 1 5F4B7BBC
+P 7600 2450
+F 0 "C13" H 7750 2500 50  0000 L CNN
+F 1 "2200uF" H 7700 2400 50  0000 L CNN
+F 2 "SamacSys_Parts:CAPAE1350X1400N" H 7638 2300 50  0001 C CNN
+F 3 "~" H 7600 2450 50  0001 C CNN
+	1    7600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5F4BEF79
+P 3850 3550
+F 0 "#PWR014" H 3850 3300 50  0001 C CNN
+F 1 "GND" V 3750 3550 50  0000 C CNN
+F 2 "" H 3850 3550 50  0001 C CNN
+F 3 "" H 3850 3550 50  0001 C CNN
+	1    3850 3550
+	0    1    1    0   
+$EndComp
+Text Label 5650 2450 0    50   ~ 0
+SW1
+Text Label 5400 2050 1    50   ~ 0
+SW1
+Text Label 3650 2950 0    50   ~ 0
+Vin1
+Text Label 3800 3200 0    50   ~ 0
+Vin2
+$Comp
+L SamacSys_Parts:CC0603JRNPO9BN100 C2
+U 1 1 5F4F2930
+P 1800 2050
+F 0 "C2" H 2150 2100 50  0000 C CNN
+F 1 "10nF" H 1900 2100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2150 2100 50  0001 L CNN
+F 3 "" H 2150 2000 50  0001 L CNN
+F 4 "CAPACITOR, 0603 10pF +/-5% 50V" H 2150 1900 50  0001 L CNN "Description"
+F 5 "" H 2150 1800 50  0001 L CNN "Height"
+F 6 "603-C0603JRNPO9BN100" H 2150 1700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-C0603JRNPO9BN100" H 2150 1600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 2150 1500 50  0001 L CNN "Manufacturer_Name"
+F 9 "CC0603JRNPO9BN100" H 2150 1400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1800 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C12
+U 1 1 5F4D4906
+P 7650 3950
+F 0 "C12" H 7750 3950 50  0000 L CNN
+F 1 "2200uF" H 7700 3850 50  0000 L CNN
+F 2 "SamacSys_Parts:CAPAE1350X1400N" H 7688 3800 50  0001 C CNN
+F 3 "~" H 7650 3950 50  0001 C CNN
+	1    7650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C11
+U 1 1 5F4A9B30
+P 7250 3950
+F 0 "C11" H 7350 3950 50  0000 L CNN
+F 1 "1uF" H 7300 3850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7288 3800 50  0001 C CNN
+F 3 "~" H 7250 3950 50  0001 C CNN
+	1    7250 3950
+	1    0    0    -1  
+$EndComp
+Text Label 3750 4450 0    50   ~ 0
+SW2
+Wire Wire Line
+	3950 4450 3750 4450
+Text Label 3750 4650 0    50   ~ 0
+SW1
+Text Label 5650 3250 0    50   ~ 0
+FB1
+Text Label 5650 3550 0    50   ~ 0
+FB2
+Wire Wire Line
+	5450 3250 5650 3250
+Wire Wire Line
+	5450 3550 5650 3550
+Text Label 5650 3150 0    50   ~ 0
+VC1
+Text Label 5650 3650 0    50   ~ 0
+VC2
+Wire Wire Line
+	5450 3650 5650 3650
+Text Label 2100 2850 0    50   ~ 0
+VC1
+Wire Wire Line
+	2000 3450 2000 3500
+Wire Wire Line
+	1100 3500 1100 3450
+Wire Wire Line
+	2100 2850 2000 2850
+Wire Wire Line
+	2000 2950 2000 2850
+Connection ~ 2000 2850
+Wire Wire Line
+	2000 2850 1900 2850
+Wire Wire Line
+	1200 2850 1100 2850
+Wire Wire Line
+	1100 2850 1100 2950
+Text Label 2050 3950 0    50   ~ 0
+VC2
+Wire Wire Line
+	1950 4600 1950 4650
+Wire Wire Line
+	1950 4650 1500 4650
+Wire Wire Line
+	1050 4650 1050 4600
+Wire Wire Line
+	1500 4750 1500 4650
+Connection ~ 1500 4650
+Wire Wire Line
+	1500 4650 1050 4650
+Wire Wire Line
+	2050 3950 1950 3950
+Wire Wire Line
+	1150 3950 1050 3950
+Wire Wire Line
+	1050 3950 1050 4100
+Wire Wire Line
+	1950 4100 1950 3950
+Connection ~ 1950 3950
+Wire Wire Line
+	1950 3950 1850 3950
+Wire Wire Line
+	4050 3550 3850 3550
+Text Label 5650 2950 0    50   ~ 0
+SS1
+Text Label 5650 2850 0    50   ~ 0
+VCC
+Wire Wire Line
+	5450 3050 5650 3050
+Wire Wire Line
+	5450 2950 5650 2950
+Wire Wire Line
+	5450 2850 5650 2850
+Text Label 3850 2550 0    50   ~ 0
+SS2
+Text Label 3850 2650 0    50   ~ 0
+RT
+Wire Wire Line
+	3850 2650 4050 2650
+Wire Wire Line
+	4050 2750 3950 2750
+Wire Wire Line
+	4050 2550 3850 2550
+Wire Wire Line
+	4600 2100 4700 2100
+Wire Wire Line
+	4700 2100 4700 1950
+Wire Wire Line
+	4700 1800 4500 1800
+Wire Wire Line
+	4950 1950 4700 1950
+Connection ~ 4700 1950
+Wire Wire Line
+	4700 1950 4700 1800
+Text Label 3800 1800 0    50   ~ 0
+SS2
+Text Label 3800 2100 0    50   ~ 0
+RT
+Wire Wire Line
+	3800 2100 3900 2100
+Wire Wire Line
+	3800 1800 4000 1800
+Wire Wire Line
+	1100 2400 1100 2050
+Connection ~ 1100 2050
+Wire Wire Line
+	1300 2050 1100 2050
+Wire Wire Line
+	1300 2400 1100 2400
+Wire Wire Line
+	5450 3750 5550 3750
+Wire Wire Line
+	5550 3750 5550 3850
+Wire Wire Line
+	5550 4250 5450 4250
+Wire Wire Line
+	5650 4000 5550 4000
+Connection ~ 5550 4000
+Wire Wire Line
+	5550 4000 5550 4050
+Wire Wire Line
+	5450 3950 5550 3950
+Connection ~ 5550 3950
+Wire Wire Line
+	5550 3950 5550 4000
+Wire Wire Line
+	5450 3850 5550 3850
+Connection ~ 5550 3850
+Wire Wire Line
+	5550 3850 5550 3950
+Wire Wire Line
+	5450 4050 5550 4050
+Connection ~ 5550 4050
+Wire Wire Line
+	5550 4050 5550 4150
+Wire Wire Line
+	5450 4150 5550 4150
+Connection ~ 5550 4150
+Wire Wire Line
+	5550 4150 5550 4250
+Text Label 2100 2400 2    50   ~ 0
+VCC
+Text Label 2100 2050 2    50   ~ 0
+SS1
+Wire Wire Line
+	2100 2400 1800 2400
+Wire Wire Line
+	5450 2750 5600 2750
+Wire Wire Line
+	3750 4650 4050 4650
+Text Label 7800 2050 0    50   ~ 0
+VO1
+Wire Wire Line
+	6550 2150 6550 2050
+Text Label 6100 5100 1    50   ~ 0
+SW2
+Wire Wire Line
+	6800 2200 6800 2050
+Wire Wire Line
+	6800 2050 6550 2050
+Connection ~ 6800 2050
+Wire Wire Line
+	6800 2050 7250 2050
+Wire Wire Line
+	7600 2050 7600 2300
+Connection ~ 7600 2050
+Wire Wire Line
+	7250 2050 7250 2300
+Connection ~ 7250 2050
+Wire Wire Line
+	7250 2050 7600 2050
+Wire Wire Line
+	7600 2600 7600 2850
+Wire Wire Line
+	7250 2600 7250 2850
+Wire Wire Line
+	7400 3150 7450 3150
+Wire Wire Line
+	3950 2450 4000 2450
+Wire Wire Line
+	1100 2050 900  2050
+Wire Wire Line
+	900  2050 900  2150
+Text Label 6650 4550 2    50   ~ 0
+FB2
+Wire Wire Line
+	6750 4200 6750 4450
+Wire Wire Line
+	6750 4450 6650 4450
+Wire Wire Line
+	6500 4450 6500 4350
+Connection ~ 6650 4450
+Wire Wire Line
+	6650 4450 6500 4450
+Wire Wire Line
+	6750 3700 6750 3550
+Wire Wire Line
+	6750 3550 6500 3550
+Wire Wire Line
+	6500 3650 6500 3550
+Wire Wire Line
+	6650 4450 6650 4700
+Text Label 7900 3550 0    50   ~ 0
+VO2
+Connection ~ 6750 3550
+Wire Wire Line
+	7250 3800 7250 3550
+Connection ~ 7250 3550
+Wire Wire Line
+	7250 3550 6750 3550
+Wire Wire Line
+	7650 3800 7650 3550
+Connection ~ 7650 3550
+Wire Wire Line
+	7650 3550 7250 3550
+Wire Wire Line
+	7650 4100 7650 4400
+Wire Wire Line
+	7250 4400 7250 4100
+Wire Wire Line
+	6650 4700 6700 4700
+Wire Wire Line
+	7400 4700 7450 4700
+Wire Wire Line
+	7450 4700 7450 4750
+Wire Wire Line
+	7450 3200 7450 3150
+$Comp
+L SamacSys_Parts:CTB1202_2BK J2
+U 1 1 5F5D631E
+P 8550 2000
+F 0 "J2" H 9178 1996 50  0000 L CNN
+F 1 "CTB1202_2BK" H 9178 1905 50  0000 L CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 9200 2100 50  0001 L CNN
+F 3 "https://docs.rs-online.com/0763/0900766b8157d556.pdf" H 9200 2000 50  0001 L CNN
+F 4 "RS PRO 5mm Pitch Straight, PCB Terminal Block, PCB Mount, 2 Way" H 9200 1900 50  0001 L CNN "Description"
+F 5 "12.5" H 9200 1800 50  0001 L CNN "Height"
+F 6 "RS Components" H 9200 1700 50  0001 L CNN "Manufacturer_Name"
+F 7 "CTB1202/2BK" H 9200 1600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "CTB1202/2BK" H 9200 1500 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 9200 1400 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 9200 1300 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 9200 1200 50  0001 L CNN "Mouser Price/Stock"
+	1    8550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:CTB1202_2BK J3
+U 1 1 5F5DA77B
+P 8550 3550
+F 0 "J3" H 9178 3546 50  0000 L CNN
+F 1 "CTB1202_2BK" H 9178 3455 50  0000 L CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 9200 3650 50  0001 L CNN
+F 3 "https://docs.rs-online.com/0763/0900766b8157d556.pdf" H 9200 3550 50  0001 L CNN
+F 4 "RS PRO 5mm Pitch Straight, PCB Terminal Block, PCB Mount, 2 Way" H 9200 3450 50  0001 L CNN "Description"
+F 5 "12.5" H 9200 3350 50  0001 L CNN "Height"
+F 6 "RS Components" H 9200 3250 50  0001 L CNN "Manufacturer_Name"
+F 7 "CTB1202/2BK" H 9200 3150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "CTB1202/2BK" H 9200 3050 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 9200 2950 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 9200 2850 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 9200 2750 50  0001 L CNN "Mouser Price/Stock"
+	1    8550 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2050 8550 2000
+Wire Wire Line
+	7600 2050 8050 2050
+Wire Wire Line
+	7650 3550 8100 3550
+$Comp
+L power:GND #PWR012
+U 1 1 5F5E5A04
+P 8550 2300
+F 0 "#PWR012" H 8550 2050 50  0001 C CNN
+F 1 "GND" H 8700 2250 50  0000 C CNN
+F 2 "" H 8550 2300 50  0001 C CNN
+F 3 "" H 8550 2300 50  0001 C CNN
+	1    8550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5F5E633E
+P 8550 3700
+F 0 "#PWR013" H 8550 3450 50  0001 C CNN
+F 1 "GND" H 8700 3650 50  0000 C CNN
+F 2 "" H 8550 3700 50  0001 C CNN
+F 3 "" H 8550 3700 50  0001 C CNN
+	1    8550 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2100 8550 2300
+Wire Wire Line
+	8550 3650 8550 3700
+$Comp
+L SamacSys_Parts:CTB1202_2BK J1
+U 1 1 5F60FA68
+P 2700 2650
+F 0 "J1" H 2992 2285 50  0000 C CNN
+F 1 "CTB1202_2BK" H 2992 2376 50  0000 C CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 3350 2750 50  0001 L CNN
+F 3 "https://docs.rs-online.com/0763/0900766b8157d556.pdf" H 3350 2650 50  0001 L CNN
+F 4 "RS PRO 5mm Pitch Straight, PCB Terminal Block, PCB Mount, 2 Way" H 3350 2550 50  0001 L CNN "Description"
+F 5 "12.5" H 3350 2450 50  0001 L CNN "Height"
+F 6 "RS Components" H 3350 2350 50  0001 L CNN "Manufacturer_Name"
+F 7 "CTB1202/2BK" H 3350 2250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "CTB1202/2BK" H 3350 2150 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 3350 2050 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 3350 1950 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 3350 1850 50  0001 L CNN "Mouser Price/Stock"
+	1    2700 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5F61682A
+P 2700 2550
+F 0 "#PWR03" H 2700 2300 50  0001 C CNN
+F 1 "GND" H 2700 2400 50  0000 C CNN
+F 2 "" H 2700 2550 50  0001 C CNN
+F 3 "" H 2700 2550 50  0001 C CNN
+	1    2700 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C14
+U 1 1 5F617F43
+P 3350 2800
+F 0 "C14" H 3500 2850 50  0000 L CNN
+F 1 "100uF" H 3450 2750 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 3388 2650 50  0001 C CNN
+F 3 "~" H 3350 2800 50  0001 C CNN
+	1    3350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:CC0603JRNPO9BN100 C15
+U 1 1 5F61978D
+P 3100 2650
+F 0 "C15" H 3450 2700 50  0000 C CNN
+F 1 "10uF" H 3250 2700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3450 2700 50  0001 L CNN
+F 3 "" H 3450 2600 50  0001 L CNN
+F 4 "CAPACITOR, 0603 10pF +/-5% 50V" H 3450 2500 50  0001 L CNN "Description"
+F 5 "" H 3450 2400 50  0001 L CNN "Height"
+F 6 "603-C0603JRNPO9BN100" H 3450 2300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-C0603JRNPO9BN100" H 3450 2200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 3450 2100 50  0001 L CNN "Manufacturer_Name"
+F 9 "CC0603JRNPO9BN100" H 3450 2000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3100 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5F61B300
+P 3350 2950
+F 0 "#PWR04" H 3350 2700 50  0001 C CNN
+F 1 "GND" H 3350 2800 50  0000 C CNN
+F 2 "" H 3350 2950 50  0001 C CNN
+F 3 "" H 3350 2950 50  0001 C CNN
+	1    3350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5F61B83A
+P 2800 3150
+F 0 "#PWR08" H 2800 2900 50  0001 C CNN
+F 1 "GND" H 2800 3000 50  0000 C CNN
+F 2 "" H 2800 3150 50  0001 C CNN
+F 3 "" H 2800 3150 50  0001 C CNN
+	1    2800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C6
+U 1 1 5F5437AC
+P 7250 2450
+F 0 "C6" H 7150 2450 50  0000 R CNN
+F 1 "1uF" H 7250 2350 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7288 2300 50  0001 C CNN
+F 3 "~" H 7250 2450 50  0001 C CNN
+	1    7250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint SW1
+U 1 1 5F6529A8
+P 5400 2050
+F 0 "SW1" H 5342 2076 50  0000 R CNN
+F 1 "TestPoint" H 5342 2167 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5600 2050 50  0001 C CNN
+F 3 "~" H 5600 2050 50  0001 C CNN
+	1    5400 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint SW2
+U 1 1 5F65AF0E
+P 6100 5100
+F 0 "SW2" H 6042 5126 50  0000 R CNN
+F 1 "TestPoint" H 6042 5217 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6300 5100 50  0001 C CNN
+F 3 "~" H 6300 5100 50  0001 C CNN
+	1    6100 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint VC2
+U 1 1 5F65BA76
+P 5650 3650
+F 0 "VC2" H 5592 3676 50  0000 R CNN
+F 1 "TestPoint" H 5592 3767 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5850 3650 50  0001 C CNN
+F 3 "~" H 5850 3650 50  0001 C CNN
+	1    5650 3650
+	-1   0    0    1   
+$EndComp
+Connection ~ 3100 2650
+Wire Wire Line
+	3100 2650 3350 2650
+Wire Wire Line
+	3950 2950 3650 2950
+Wire Wire Line
+	3650 2650 3350 2650
+Connection ~ 3350 2650
+Wire Wire Line
+	3650 2650 3650 2950
+Wire Wire Line
+	2700 2650 2800 2650
+Connection ~ 3950 3050
+Connection ~ 3950 3250
+Wire Wire Line
+	3950 3250 3950 3050
+$Comp
+L power:GND2 #PWR0102
+U 1 1 5F715518
+P 900 2150
+F 0 "#PWR0102" H 900 1900 50  0001 C CNN
+F 1 "GND2" H 905 1977 50  0000 C CNN
+F 2 "" H 900 2150 50  0001 C CNN
+F 3 "" H 900 2150 50  0001 C CNN
+	1    900  2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0104
+U 1 1 5F7161AE
+P 1700 3650
+F 0 "#PWR0104" H 1700 3400 50  0001 C CNN
+F 1 "GND2" H 1705 3477 50  0000 C CNN
+F 2 "" H 1700 3650 50  0001 C CNN
+F 3 "" H 1700 3650 50  0001 C CNN
+	1    1700 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 3500 1700 3500
+$Comp
+L power:GND2 #PWR0105
+U 1 1 5F716CC0
+P 1500 4750
+F 0 "#PWR0105" H 1500 4500 50  0001 C CNN
+F 1 "GND2" H 1505 4577 50  0000 C CNN
+F 2 "" H 1500 4750 50  0001 C CNN
+F 3 "" H 1500 4750 50  0001 C CNN
+	1    1500 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0106
+U 1 1 5F7174F7
+P 4950 1950
+F 0 "#PWR0106" H 4950 1700 50  0001 C CNN
+F 1 "GND2" H 4955 1777 50  0000 C CNN
+F 2 "" H 4950 1950 50  0001 C CNN
+F 3 "" H 4950 1950 50  0001 C CNN
+	1    4950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0107
+U 1 1 5F717A91
+P 5600 3400
+F 0 "#PWR0107" H 5600 3150 50  0001 C CNN
+F 1 "GND2" H 5605 3227 50  0000 C CNN
+F 2 "" H 5600 3400 50  0001 C CNN
+F 3 "" H 5600 3400 50  0001 C CNN
+	1    5600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0108
+U 1 1 5F717E4A
+P 5600 2750
+F 0 "#PWR0108" H 5600 2500 50  0001 C CNN
+F 1 "GND2" V 5605 2622 50  0000 R CNN
+F 2 "" H 5600 2750 50  0001 C CNN
+F 3 "" H 5600 2750 50  0001 C CNN
+	1    5600 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SamacSys_Parts:LT8652SIV#PBF IC1
+U 1 1 5F3FFF9B
+P 4050 2450
+F 0 "IC1" H 4750 2715 50  0000 C CNN
+F 1 "LT8652SIV#PBF" H 4750 2624 50  0000 C CNN
+F 2 "SamacSys_Parts:LT8652SIVPBF" H 5300 2550 50  0001 L CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LT8652S.pdf" H 5300 2450 50  0001 L CNN
+F 4 "Switching Voltage Regulators Precision, High Voltage Difference/Curre" H 5300 2350 50  0001 L CNN "Description"
+F 5 "1.03" H 5300 2250 50  0001 L CNN "Height"
+F 6 "Analog Devices" H 5300 2150 50  0001 L CNN "Manufacturer_Name"
+F 7 "LT8652SIV#PBF" H 5300 2050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "LT8652SIV#PBF" H 5300 1950 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/lt8652sivpbf/analog-devices" H 5300 1850 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 5300 1750 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 5300 1650 50  0001 L CNN "Mouser Price/Stock"
+	1    4050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0110
+U 1 1 5F71909B
+P 3300 2450
+F 0 "#PWR0110" H 3300 2200 50  0001 C CNN
+F 1 "GND2" V 3305 2322 50  0000 R CNN
+F 2 "" H 3300 2450 50  0001 C CNN
+F 3 "" H 3300 2450 50  0001 C CNN
+	1    3300 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 4400 7450 4400
+$Comp
+L power:GND2 #PWR0101
+U 1 1 5F71AEAD
+P 7450 4750
+F 0 "#PWR0101" H 7450 4500 50  0001 C CNN
+F 1 "GND2" H 7455 4577 50  0000 C CNN
+F 2 "" H 7450 4750 50  0001 C CNN
+F 3 "" H 7450 4750 50  0001 C CNN
+	1    7450 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F71B2A8
+P 7450 4400
+F 0 "#PWR0103" H 7450 4150 50  0001 C CNN
+F 1 "GND" H 7600 4350 50  0000 C CNN
+F 2 "" H 7450 4400 50  0001 C CNN
+F 3 "" H 7450 4400 50  0001 C CNN
+	1    7450 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 7450 4400
+Wire Wire Line
+	7450 4400 7650 4400
+Wire Wire Line
+	7250 2850 7450 2850
+$Comp
+L power:GND2 #PWR0111
+U 1 1 5F71B6C6
+P 7450 3200
+F 0 "#PWR0111" H 7450 2950 50  0001 C CNN
+F 1 "GND2" H 7455 3027 50  0000 C CNN
+F 2 "" H 7450 3200 50  0001 C CNN
+F 3 "" H 7450 3200 50  0001 C CNN
+	1    7450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5F71BA9F
+P 7450 2850
+F 0 "#PWR0112" H 7450 2600 50  0001 C CNN
+F 1 "GND" H 7600 2800 50  0000 C CNN
+F 2 "" H 7450 2850 50  0001 C CNN
+F 3 "" H 7450 2850 50  0001 C CNN
+	1    7450 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 7450 2850
+Wire Wire Line
+	7450 2850 7600 2850
+Wire Wire Line
+	1700 3650 1700 3500
+Connection ~ 1700 3500
+Wire Wire Line
+	1700 3500 2000 3500
+$Comp
+L SamacSys_Parts:PCF0805R-2K55BI R3
+U 1 1 5F731F5D
+P 2800 5000
+F 0 "R3" H 3150 5100 50  0000 C CNN
+F 1 "0" H 3150 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3350 5050 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PCF0805R-2K55BI.pdf" H 3350 4950 50  0001 L CNN
+F 4 "WELWYN - PCF0805R-2K55BI - RES, 2K55, 0.1%, 0.1W, 0805, THIN FILM" H 3350 4850 50  0001 L CNN "Description"
+F 5 "0.65" H 3350 4750 50  0001 L CNN "Height"
+F 6 "756-PCF0805R2K55BI" H 3350 4650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=756-PCF0805R2K55BI" H 3350 4550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "WELWYN" H 3350 4450 50  0001 L CNN "Manufacturer_Name"
+F 9 "PCF0805R-2K55BI" H 3350 4350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:PCF0805R-2K55BI R9
+U 1 1 5F732E2E
+P 5050 5050
+F 0 "R9" H 5400 5150 50  0000 C CNN
+F 1 "0" H 5400 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5600 5100 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PCF0805R-2K55BI.pdf" H 5600 5000 50  0001 L CNN
+F 4 "WELWYN - PCF0805R-2K55BI - RES, 2K55, 0.1%, 0.1W, 0805, THIN FILM" H 5600 4900 50  0001 L CNN "Description"
+F 5 "0.65" H 5600 4800 50  0001 L CNN "Height"
+F 6 "756-PCF0805R2K55BI" H 5600 4700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=756-PCF0805R2K55BI" H 5600 4600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "WELWYN" H 5600 4500 50  0001 L CNN "Manufacturer_Name"
+F 9 "PCF0805R-2K55BI" H 5600 4400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5050 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5F7332B0
+P 2800 5000
+F 0 "#PWR02" H 2800 4750 50  0001 C CNN
+F 1 "GND" V 2700 5000 50  0000 C CNN
+F 2 "" H 2800 5000 50  0001 C CNN
+F 3 "" H 2800 5000 50  0001 C CNN
+	1    2800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR05
+U 1 1 5F733A79
+P 3500 5000
+F 0 "#PWR05" H 3500 4750 50  0001 C CNN
+F 1 "GND2" V 3505 4872 50  0000 R CNN
+F 2 "" H 3500 5000 50  0001 C CNN
+F 3 "" H 3500 5000 50  0001 C CNN
+	1    3500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR07
+U 1 1 5F734096
+P 5750 5050
+F 0 "#PWR07" H 5750 4800 50  0001 C CNN
+F 1 "GND2" V 5755 4922 50  0000 R CNN
+F 2 "" H 5750 5050 50  0001 C CNN
+F 3 "" H 5750 5050 50  0001 C CNN
+	1    5750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5F734590
+P 5050 5050
+F 0 "#PWR06" H 5050 4800 50  0001 C CNN
+F 1 "GND" V 4950 5050 50  0000 C CNN
+F 2 "" H 5050 5050 50  0001 C CNN
+F 3 "" H 5050 5050 50  0001 C CNN
+	1    5050 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:PCF0805R-2K55BI R10
+U 1 1 5F79B9DB
+P 2800 5550
+F 0 "R10" H 3150 5650 50  0000 C CNN
+F 1 "0" H 3150 5550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3350 5600 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PCF0805R-2K55BI.pdf" H 3350 5500 50  0001 L CNN
+F 4 "WELWYN - PCF0805R-2K55BI - RES, 2K55, 0.1%, 0.1W, 0805, THIN FILM" H 3350 5400 50  0001 L CNN "Description"
+F 5 "0.65" H 3350 5300 50  0001 L CNN "Height"
+F 6 "756-PCF0805R2K55BI" H 3350 5200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=756-PCF0805R2K55BI" H 3350 5100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "WELWYN" H 3350 5000 50  0001 L CNN "Manufacturer_Name"
+F 9 "PCF0805R-2K55BI" H 3350 4900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2800 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5F79C8D3
+P 2800 5550
+F 0 "#PWR010" H 2800 5300 50  0001 C CNN
+F 1 "GND" V 2700 5550 50  0000 C CNN
+F 2 "" H 2800 5550 50  0001 C CNN
+F 3 "" H 2800 5550 50  0001 C CNN
+	1    2800 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR011
+U 1 1 5F79CD69
+P 3500 5550
+F 0 "#PWR011" H 3500 5300 50  0001 C CNN
+F 1 "GND2" V 3505 5422 50  0000 R CNN
+F 2 "" H 3500 5550 50  0001 C CNN
+F 3 "" H 3500 5550 50  0001 C CNN
+	1    3500 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2050 2100 2050
+Wire Wire Line
+	4050 3950 3900 3950
+Wire Wire Line
+	4050 3850 3950 3850
+Wire Wire Line
+	4050 3650 3700 3650
+Text Label 3550 3650 0    50   ~ 0
+SS1
+Text Label 3550 3750 0    50   ~ 0
+SS2
+Text Label 3550 3550 0    50   ~ 0
+VC1
+Connection ~ 3050 3850
+$Comp
+L Connector:TestPoint PG2
+U 1 1 5F7C8AB1
+P 3950 3850
+F 0 "PG2" H 3892 3876 50  0000 R CNN
+F 1 "TestPoint" H 3892 3967 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 4150 3850 50  0001 C CNN
+F 3 "~" H 4150 3850 50  0001 C CNN
+	1    3950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint PG1
+U 1 1 5F7C9849
+P 3900 3950
+F 0 "PG1" H 3842 3976 50  0000 R CNN
+F 1 "TestPoint" H 3842 4067 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 4100 3950 50  0001 C CNN
+F 3 "~" H 4100 3950 50  0001 C CNN
+	1    3900 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:PCF0805R-2K55BI R11
+U 1 1 5F811A83
+P 3300 2450
+F 0 "R11" H 3650 2550 50  0000 C CNN
+F 1 "0" H 3650 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3850 2500 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PCF0805R-2K55BI.pdf" H 3850 2400 50  0001 L CNN
+F 4 "WELWYN - PCF0805R-2K55BI - RES, 2K55, 0.1%, 0.1W, 0805, THIN FILM" H 3850 2300 50  0001 L CNN "Description"
+F 5 "0.65" H 3850 2200 50  0001 L CNN "Height"
+F 6 "756-PCF0805R2K55BI" H 3850 2100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=756-PCF0805R2K55BI" H 3850 2000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "WELWYN" H 3850 1900 50  0001 L CNN "Manufacturer_Name"
+F 9 "PCF0805R-2K55BI" H 3850 1800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3300 2450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 2450
+Wire Wire Line
+	4000 2450 4050 2450
+$Comp
+L SamacSys_Parts:PCF0805R-2K55BI R12
+U 1 1 5F814814
+P 5650 3050
+F 0 "R12" H 6000 3150 50  0000 C CNN
+F 1 "0" H 6000 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6200 3100 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PCF0805R-2K55BI.pdf" H 6200 3000 50  0001 L CNN
+F 4 "WELWYN - PCF0805R-2K55BI - RES, 2K55, 0.1%, 0.1W, 0805, THIN FILM" H 6200 2900 50  0001 L CNN "Description"
+F 5 "0.65" H 6200 2800 50  0001 L CNN "Height"
+F 6 "756-PCF0805R2K55BI" H 6200 2700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=756-PCF0805R2K55BI" H 6200 2600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "WELWYN" H 6200 2500 50  0001 L CNN "Manufacturer_Name"
+F 9 "PCF0805R-2K55BI" H 6200 2400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0109
+U 1 1 5F718524
+P 6350 3050
+F 0 "#PWR0109" H 6350 2800 50  0001 C CNN
+F 1 "GND2" V 6355 2922 50  0000 R CNN
+F 2 "" H 6350 3050 50  0001 C CNN
+F 3 "" H 6350 3050 50  0001 C CNN
+	1    6350 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3150 5950 3150
+$Comp
+L Connector:TestPoint VC1
+U 1 1 5F65C198
+P 5950 3150
+F 0 "VC1" H 5892 3176 50  0000 R CNN
+F 1 "TestPoint" H 5892 3267 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6150 3150 50  0001 C CNN
+F 3 "~" H 6150 3150 50  0001 C CNN
+	1    5950 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 3150 6700 3150
+Wire Wire Line
+	6650 3000 6550 3000
+Connection ~ 6650 3000
+Wire Wire Line
+	6650 3150 6650 3000
+Wire Wire Line
+	6800 2700 6800 3000
+Wire Wire Line
+	6800 3000 6650 3000
+Wire Wire Line
+	6550 2850 6550 3000
+Text Label 6650 3000 0    50   ~ 0
+FB1
+$Comp
+L SamacSys_Parts:CC0603JRNPO9BN100 C9
+U 1 1 5F53BABD
+P 6800 2200
+F 0 "C9" V 7050 2350 50  0000 C CNN
+F 1 "10pF" V 7150 2300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7150 2250 50  0001 L CNN
+F 3 "" H 7150 2150 50  0001 L CNN
+F 4 "CAPACITOR, 0603 10pF +/-5% 50V" H 7150 2050 50  0001 L CNN "Description"
+F 5 "" H 7150 1950 50  0001 L CNN "Height"
+F 6 "603-C0603JRNPO9BN100" H 7150 1850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-C0603JRNPO9BN100" H 7150 1750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 7150 1650 50  0001 L CNN "Manufacturer_Name"
+F 9 "CC0603JRNPO9BN100" H 7150 1550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6800 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:ERA-2AEB512X R7
+U 1 1 5F507117
+P 6550 2150
+F 0 "R7" V 6850 1950 50  0000 C CNN
+F 1 "11.45k" V 6950 1950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 2200 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/ERA-2AEB512X.pdf" H 7100 2100 50  0001 L CNN
+F 4 "Panasonic ERA Series Thin Film Surface Mount Resistor 0402 Case 5.1k +/-0.1% 63mW +/-25ppm/C" H 7100 2000 50  0001 L CNN "Description"
+F 5 "0.4" H 7100 1900 50  0001 L CNN "Height"
+F 6 "667-ERA-2AEB512X" H 7100 1800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-2AEB512X" H 7100 1700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 7100 1600 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERA-2AEB512X" H 7100 1500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6550 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:PCF0805R-2K55BI R5
+U 1 1 5F40956A
+P 6700 3150
+F 0 "R5" H 7050 3250 50  0000 C CNN
+F 1 "2.55k" H 7050 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7250 3200 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PCF0805R-2K55BI.pdf" H 7250 3100 50  0001 L CNN
+F 4 "WELWYN - PCF0805R-2K55BI - RES, 2K55, 0.1%, 0.1W, 0805, THIN FILM" H 7250 3000 50  0001 L CNN "Description"
+F 5 "0.65" H 7250 2900 50  0001 L CNN "Height"
+F 6 "756-PCF0805R2K55BI" H 7250 2800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=756-PCF0805R2K55BI" H 7250 2700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "WELWYN" H 7250 2600 50  0001 L CNN "Manufacturer_Name"
+F 9 "PCF0805R-2K55BI" H 7250 2500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C16
+U 1 1 5F82E547
+P 8050 2200
+F 0 "C16" H 7950 2200 50  0000 R CNN
+F 1 "100uF" H 8050 2100 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8088 2050 50  0001 C CNN
+F 3 "~" H 8050 2200 50  0001 C CNN
+	1    8050 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 8050 2050
+Wire Wire Line
+	8050 2050 8300 2050
+$Comp
+L Device:CP C18
+U 1 1 5F82EBF6
+P 8300 2200
+F 0 "C18" H 8450 2250 50  0000 L CNN
+F 1 "2200uF" H 8400 2150 50  0000 L CNN
+F 2 "SamacSys_Parts:CAPAE1350X1400N" H 8338 2050 50  0001 C CNN
+F 3 "~" H 8300 2200 50  0001 C CNN
+	1    8300 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 8300 2050
+Wire Wire Line
+	8300 2050 8550 2050
+$Comp
+L power:GND #PWR0114
+U 1 1 5F82F0F6
+P 8150 2500
+F 0 "#PWR0114" H 8150 2250 50  0001 C CNN
+F 1 "GND" H 8300 2450 50  0000 C CNN
+F 2 "" H 8150 2500 50  0001 C CNN
+F 3 "" H 8150 2500 50  0001 C CNN
+	1    8150 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 2350 8150 2350
+Wire Wire Line
+	8150 2350 8150 2500
+Wire Wire Line
+	8300 2350 8150 2350
+Connection ~ 8150 2350
+$Comp
+L Device:CP C17
+U 1 1 5F83CE12
+P 8100 3700
+F 0 "C17" H 8200 3700 50  0000 L CNN
+F 1 "100uF" H 8150 3600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8138 3550 50  0001 C CNN
+F 3 "~" H 8100 3700 50  0001 C CNN
+	1    8100 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 8100 3550
+Wire Wire Line
+	8100 3550 8350 3550
+$Comp
+L Device:CP C19
+U 1 1 5F83D30D
+P 8350 3700
+F 0 "C19" H 8450 3700 50  0000 L CNN
+F 1 "2200uF" H 8400 3600 50  0000 L CNN
+F 2 "SamacSys_Parts:CAPAE1350X1400N" H 8388 3550 50  0001 C CNN
+F 3 "~" H 8350 3700 50  0001 C CNN
+	1    8350 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 8350 3550
+Wire Wire Line
+	8350 3550 8550 3550
+$Comp
+L power:GND #PWR0115
+U 1 1 5F83D74A
+P 8250 4000
+F 0 "#PWR0115" H 8250 3750 50  0001 C CNN
+F 1 "GND" H 8400 3950 50  0000 C CNN
+F 2 "" H 8250 4000 50  0001 C CNN
+F 3 "" H 8250 4000 50  0001 C CNN
+	1    8250 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3850 8250 3850
+Wire Wire Line
+	8250 3850 8250 4000
+Connection ~ 8250 3850
+Wire Wire Line
+	8250 3850 8350 3850
+$Comp
+L SamacSys_Parts:CC0603JRNPO9BN100 C21
+U 1 1 5F8B8FE6
+P 2800 2650
+F 0 "C21" H 3150 2700 50  0000 C CNN
+F 1 "10uF" H 2950 2700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3150 2700 50  0001 L CNN
+F 3 "" H 3150 2600 50  0001 L CNN
+F 4 "CAPACITOR, 0603 10pF +/-5% 50V" H 3150 2500 50  0001 L CNN "Description"
+F 5 "" H 3150 2400 50  0001 L CNN "Height"
+F 6 "603-C0603JRNPO9BN100" H 3150 2300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-C0603JRNPO9BN100" H 3150 2200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 3150 2100 50  0001 L CNN "Manufacturer_Name"
+F 9 "CC0603JRNPO9BN100" H 3150 2000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2800 2650
+	0    1    1    0   
+$EndComp
+Connection ~ 2800 2650
+Wire Wire Line
+	2800 2650 3100 2650
+$Comp
+L Device:CP C20
+U 1 1 5F8BA6EA
+P 2700 2800
+F 0 "C20" H 2850 2850 50  0000 L CNN
+F 1 "100uF" H 2800 2750 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 2738 2650 50  0001 C CNN
+F 3 "~" H 2700 2800 50  0001 C CNN
+	1    2700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5F8BAC4E
+P 2700 2950
+F 0 "#PWR015" H 2700 2700 50  0001 C CNN
+F 1 "GND" H 2700 2800 50  0000 C CNN
+F 2 "" H 2700 2950 50  0001 C CNN
+F 3 "" H 2700 2950 50  0001 C CNN
+	1    2700 2950
+	1    0    0    -1  
+$EndComp
+Connection ~ 2700 2650
+$Comp
+L power:GND #PWR0116
+U 1 1 5F8D312C
+P 3100 3150
+F 0 "#PWR0116" H 3100 2900 50  0001 C CNN
+F 1 "GND" H 3100 3000 50  0000 C CNN
+F 2 "" H 3100 3150 50  0001 C CNN
+F 3 "" H 3100 3150 50  0001 C CNN
+	1    3100 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3850 3050 3950
+Connection ~ 3050 3950
+Wire Wire Line
+	3050 3850 3050 3750
+Connection ~ 3050 3750
+Wire Wire Line
+	3050 3750 3050 3650
+Wire Wire Line
+	3050 3650 3050 3550
+Connection ~ 3050 3650
+Wire Wire Line
+	3050 4050 3050 4150
+Wire Wire Line
+	3050 3950 3050 4050
+Connection ~ 3050 4050
+$Comp
+L Connector_Generic:Conn_02x07_Odd_Even J4
+U 1 1 5F7BB8B0
+P 3250 3850
+F 0 "J4" H 3300 4367 50  0000 C CNN
+F 1 "Conn_02x07_Top_Bottom" H 3300 4276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 3250 3850 50  0001 C CNN
+F 3 "~" H 3250 3850 50  0001 C CNN
+	1    3250 3850
+	1    0    0    -1  
+$EndComp
+Text Label 3550 3850 0    50   ~ 0
+VC2
+Wire Wire Line
+	3700 3650 3700 3950
+Wire Wire Line
+	3700 3950 3550 3950
+Wire Wire Line
+	3950 3850 3750 3850
+Wire Wire Line
+	3750 3850 3750 4050
+Wire Wire Line
+	3750 4050 3550 4050
+Connection ~ 3950 3850
+Wire Wire Line
+	3900 3950 3800 3950
+Wire Wire Line
+	3800 3950 3800 4150
+Wire Wire Line
+	3800 4150 3550 4150
+Connection ~ 3900 3950
+$Comp
+L power:GND2 #PWR0113
+U 1 1 5F8FF1AC
+P 3050 3850
+F 0 "#PWR0113" H 3050 3600 50  0001 C CNN
+F 1 "GND2" H 3055 3677 50  0000 C CNN
+F 2 "" H 3050 3850 50  0001 C CNN
+F 3 "" H 3050 3850 50  0001 C CNN
+	1    3050 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:ERA-2AEB512X R13
+U 1 1 5F8C8528
+P 5700 2050
+F 0 "R13" V 6000 1850 50  0000 C CNN
+F 1 "1k" V 6100 1850 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" H 6250 2100 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/ERA-2AEB512X.pdf" H 6250 2000 50  0001 L CNN
+F 4 "Panasonic ERA Series Thin Film Surface Mount Resistor 0402 Case 5.1k +/-0.1% 63mW +/-25ppm/C" H 6250 1900 50  0001 L CNN "Description"
+F 5 "0.4" H 6250 1800 50  0001 L CNN "Height"
+F 6 "667-ERA-2AEB512X" H 6250 1700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-2AEB512X" H 6250 1600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 6250 1500 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERA-2AEB512X" H 6250 1400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:ERA-2AEB512X R14
+U 1 1 5F8D2CCD
+P 6400 5100
+F 0 "R14" V 6600 4950 50  0000 C CNN
+F 1 "1k" V 6700 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" H 6950 5150 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/ERA-2AEB512X.pdf" H 6950 5050 50  0001 L CNN
+F 4 "Panasonic ERA Series Thin Film Surface Mount Resistor 0402 Case 5.1k +/-0.1% 63mW +/-25ppm/C" H 6950 4950 50  0001 L CNN "Description"
+F 5 "0.4" H 6950 4850 50  0001 L CNN "Height"
+F 6 "667-ERA-2AEB512X" H 6950 4750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-2AEB512X" H 6950 4650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 6950 4550 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERA-2AEB512X" H 6950 4450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint L2S1
+U 1 1 5F9064C2
+P 6400 4850
+F 0 "L2S1" H 6342 4876 50  0000 R CNN
+F 1 "TestPoint" H 6342 4967 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6600 4850 50  0001 C CNN
+F 3 "~" H 6600 4850 50  0001 C CNN
+	1    6400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint L1S1
+U 1 1 5F9562DC
+P 5700 1700
+F 0 "L1S1" H 5642 1726 50  0000 R CNN
+F 1 "TestPoint" H 5642 1817 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5900 1700 50  0001 C CNN
+F 3 "~" H 5900 1700 50  0001 C CNN
+	1    5700 1700
+	1    0    0    -1  
+$EndComp
+Text Label 7100 5100 0    50   ~ 0
+VO2
+Wire Wire Line
+	6400 2050 6550 2050
+Connection ~ 6550 2050
+Wire Wire Line
+	6400 4850 6400 5100
+Connection ~ 6400 5100
+Wire Wire Line
+	5700 1700 5700 2050
+Connection ~ 5700 2050
+$EndSCHEMATC
