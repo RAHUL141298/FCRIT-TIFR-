@@ -1,0 +1,329 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 885012006022-SamacSys_Parts-test1-rescue
+#
+DEF 885012006022-SamacSys_Parts-test1-rescue C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "885012006022-SamacSys_Parts-test1-rescue" 350 150 50 H V L CNN
+F2 "CAPC1608X87N" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/885012006022.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 0603 68pF NP00603680J016DFCT10000" 350 -150 50 H I L CNN "Description"
+F5 "0.87" 350 -250 50 H I L CNN "Height"
+F6 "710-885012006022" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=710-885012006022" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "885012006022" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 885012006023-SamacSys_Parts-test1-rescue
+#
+DEF 885012006023-SamacSys_Parts-test1-rescue C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "885012006023-SamacSys_Parts-test1-rescue" 350 150 50 H V L CNN
+F2 "CAPC1608X87N" 350 50 50 H I L CNN
+F3 "https://katalog.we-online.com/pbs/datasheet/885012006023.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 0603 100pF NP00603101J016DFCT10000" 350 -150 50 H I L CNN "Description"
+F5 "0.87" 350 -250 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 350 -550 50 H I L CNN "Manufacturer_Name"
+F7 "885012006023" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ADP1850ACPZ-R7-SamacSys_Parts-test1-rescue
+#
+DEF ADP1850ACPZ-R7-SamacSys_Parts-test1-rescue IC 0 30 Y Y 1 F N
+F0 "IC" 1250 700 50 H V L CNN
+F1 "ADP1850ACPZ-R7-SamacSys_Parts-test1-rescue" 1250 600 50 H V L CNN
+F2 "QFN50P500X500X75-33N" 1250 500 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/ADP1850ACPZ-R7.pdf" 1250 400 50 H I L CNN
+F4 "IC, DC-DC CONV, 1.725MHz" 1250 300 50 H I L CNN "Description"
+F5 "584-ADP1850ACPZ-R7" 1250 100 50 H I L CNN "Mouser Part Number"
+F6 "Analog Devices" 1250 -100 50 H I L CNN "Manufacturer_Name"
+F7 "ADP1850ACPZ-R7" 1250 -200 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 500 1200 500 1200 -1200 200 -1200 200 500 N
+X EN1 1 0 0 200 R 50 50 0 0 P
+X FB2 10 400 -1400 200 U 50 50 0 0 P
+X COMP2 11 500 -1400 200 U 50 50 0 0 P
+X RAMP2 12 600 -1400 200 U 50 50 0 0 P
+X SS2 13 700 -1400 200 U 50 50 0 0 P
+X PGOOD2 14 800 -1400 200 U 50 50 0 0 P
+X ILIM2 15 900 -1400 200 U 50 50 0 0 P
+X BST2 16 1000 -1400 200 U 50 50 0 0 P
+X SW2 17 1400 -700 200 L 50 50 0 0 P
+X DH2 18 1400 -600 200 L 50 50 0 0 P
+X PGND2 19 1400 -500 200 L 50 50 0 0 P
+X SYNC 2 0 -100 200 R 50 50 0 0 P
+X DL2 20 1400 -400 200 L 50 50 0 0 P
+X DL1 21 1400 -300 200 L 50 50 0 0 P
+X PGND1 22 1400 -200 200 L 50 50 0 0 P
+X DH1 23 1400 -100 200 L 50 50 0 0 P
+X SW1 24 1400 0 200 L 50 50 0 0 P
+X BST1 25 1100 700 200 D 50 50 0 0 P
+X ILIM1 26 1000 700 200 D 50 50 0 0 P
+X PGOOD1 27 900 700 200 D 50 50 0 0 P
+X SS1 28 800 700 200 D 50 50 0 0 P
+X RAMP1 29 700 700 200 D 50 50 0 0 P
+X VIN 3 0 -200 200 R 50 50 0 0 P
+X COMP1 30 600 700 200 D 50 50 0 0 P
+X FB1 31 500 700 200 D 50 50 0 0 P
+X TRK1 32 400 700 200 D 50 50 0 0 P
+X EP 33 300 700 200 D 50 50 0 0 P
+X VCCO 4 0 -300 200 R 50 50 0 0 P
+X VDL 5 0 -400 200 R 50 50 0 0 P
+X AGND 6 0 -500 200 R 50 50 0 0 P
+X FREQ 7 0 -600 200 R 50 50 0 0 P
+X EN2 8 0 -700 200 R 50 50 0 0 P
+X TRK2 9 300 -1400 200 U 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# C0603C103K5RACTU-SamacSys_Parts-test1-rescue
+#
+DEF C0603C103K5RACTU-SamacSys_Parts-test1-rescue C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C0603C103K5RACTU-SamacSys_Parts-test1-rescue" 350 150 50 H V L CNN
+F2 "CAPC1608X87N" 350 50 50 H I L CNN
+F3 "" 350 -50 50 H I L CNN
+F4 "0603 X7R ceramic capacitor, 50V 10nF Kemet 0603 10nF Ceramic Multilayer Capacitor, 50V dc, 125C, X7R Dielectric, +/-10% SMD" 350 -150 50 H I L CNN "Description"
+F5 "0.87" 350 -250 50 H I L CNN "Height"
+F6 "80-C0603C103K5R" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C103K5RACTU?qs=aZBT8IJKz4hu1X55tMAU6Q%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Kemet" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "C0603C103K5RACTU" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# C0603C105K8RACTU-SamacSys_Parts-test1-rescue
+#
+DEF C0603C105K8RACTU-SamacSys_Parts-test1-rescue C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C0603C105K8RACTU-SamacSys_Parts-test1-rescue" 350 150 50 H V L CNN
+F2 "CAPC1608X87N" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/C0603C105K8RACTU.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10volts 1uF 10% X7R" 350 -150 50 H I L CNN "Description"
+F5 "0.87" 350 -250 50 H I L CNN "Height"
+F6 "80-C0603C105K8R" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C105K8RACTU?qs=yid3r3QGO6wdi%2Fi%252BghSogA%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Kemet" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "C0603C105K8RACTU" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# CRCW080586K6FKEA-SamacSys_Parts-test1-rescue
+#
+DEF CRCW080586K6FKEA-SamacSys_Parts-test1-rescue R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CRCW080586K6FKEA-SamacSys_Parts-test1-rescue" 550 150 50 H V L CNN
+F2 "RESC2012X50N" 550 50 50 H I L CNN
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 550 -50 50 H I L CNN
+F4 "RESISTOR, 0805 86.6K Ohms +/-1% 0.125 W" 550 -150 50 H I L CNN "Description"
+F5 "0.5" 550 -250 50 H I L CNN "Height"
+F6 "71-CRCW0805-86.6K-E3" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW080586K6FKEA?qs=gFq8Ja42mL6MhwaxwO8AOA%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CRCW080586K6FKEA" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# EEHZA1V101P-SamacSys_Parts-test1-rescue
+#
+DEF EEHZA1V101P-SamacSys_Parts-test1-rescue C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EEHZA1V101P-SamacSys_Parts-test1-rescue" 350 150 50 H V L CNN
+F2 "CAPAE830X1050N" 350 50 50 H I L CNN
+F3 "" 350 -50 50 H I L CNN
+F4 "Aluminum Organic Polymer Capacitors 35VDC 100uF 20% AEC-Q200" 350 -150 50 H I L CNN "Description"
+F5 "10.5" 350 -250 50 H I L CNN "Height"
+F6 "Panasonic" 350 -550 50 H I L CNN "Manufacturer_Name"
+F7 "EEHZA1V101P" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ERA-2AEB512X-SamacSys_Parts-test1-rescue
+#
+DEF ERA-2AEB512X-SamacSys_Parts-test1-rescue R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ERA-2AEB512X-SamacSys_Parts-test1-rescue" 550 150 50 H V L CNN
+F2 "RESC1005X40N" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/ERA-2AEB512X.pdf" 550 -50 50 H I L CNN
+F4 "Panasonic ERA Series Thin Film Surface Mount Resistor 0402 Case 5.1k +/-0.1% 63mW +/-25ppm/C" 550 -150 50 H I L CNN "Description"
+F5 "0.4" 550 -250 50 H I L CNN "Height"
+F6 "667-ERA-2AEB512X" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-2AEB512X" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ERA-2AEB512X" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ERA-6ARB1432V-SamacSys_Parts-test1-rescue
+#
+DEF ERA-6ARB1432V-SamacSys_Parts-test1-rescue R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ERA-6ARB1432V-SamacSys_Parts-test1-rescue" 550 150 50 H V L CNN
+F2 "RESC2012X60N" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/ERA-6ARB1432V.pdf" 550 -50 50 H I L CNN
+F4 "Thin Film Resistors - SMD 0805 Thin film chip resistor" 550 -150 50 H I L CNN "Description"
+F5 "0.6" 550 -250 50 H I L CNN "Height"
+F6 "667-ERA-6ARB1432V" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-6ARB1432V" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ERA-6ARB1432V" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ERJ-3EKF2803V-SamacSys_Parts-test1-rescue
+#
+DEF ERJ-3EKF2803V-SamacSys_Parts-test1-rescue R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ERJ-3EKF2803V-SamacSys_Parts-test1-rescue" 550 150 50 H V L CNN
+F2 "RESC1608X55N" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/ERJ-3EKF2803V.pdf" 550 -50 50 H I L CNN
+F4 "Thick Film Resistors - SMD 0603 280Kohms 1% AEC-Q200" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "667-ERJ-3EKF2803V" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-3EKF2803V" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ERJ-3EKF2803V" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# GRM033R6YA104KE14D-SamacSys_Parts-test1-rescue
+#
+DEF GRM033R6YA104KE14D-SamacSys_Parts-test1-rescue C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "GRM033R6YA104KE14D-SamacSys_Parts-test1-rescue" 350 150 50 H V L CNN
+F2 "CAPC0603X33N" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/GRM033R6YA104KE14D.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0201 0.10uF 35volts *Derate Voltage/Temp" 350 -150 50 H I L CNN "Description"
+F5 "0.33" 350 -250 50 H I L CNN "Height"
+F6 "81-GRM33R6YA104KE14D" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM33R6YA104KE14D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "GRM033R6YA104KE14D" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PCF0805PR-4K3BT1-SamacSys_Parts-test1-rescue
+#
+DEF PCF0805PR-4K3BT1-SamacSys_Parts-test1-rescue R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "PCF0805PR-4K3BT1-SamacSys_Parts-test1-rescue" 550 150 50 H V L CNN
+F2 "RESC2012X65N" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/PCF0805-13-10KBT1.pdf" 550 -50 50 H I L CNN
+F4 "Thin Film Resistors - SMD 0805 4K3 Ohms \\'0.1% 25 PPM Passivated" 550 -150 50 H I L CNN "Description"
+F5 "0.65" 550 -250 50 H I L CNN "Height"
+F6 "756-PCF0805PR4K3BT1" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Welwyn-Components-TT-Electronics/PCF0805PR-4K3BT1?qs=FT3f9X29IxlT11xrws%252ByPw%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "WELWYN" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "PCF0805PR-4K3BT1" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PCF0805R-2K55BI-SamacSys_Parts-test1-rescue
+#
+DEF PCF0805R-2K55BI-SamacSys_Parts-test1-rescue R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "PCF0805R-2K55BI-SamacSys_Parts-test1-rescue" 550 150 50 H V L CNN
+F2 "RESC2012X65N" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/PCF0805R-2K55BI.pdf" 550 -50 50 H I L CNN
+F4 "WELWYN - PCF0805R-2K55BI - RES, 2K55, 0.1%, 0.1W, 0805, THIN FILM" 550 -150 50 H I L CNN "Description"
+F5 "0.65" 550 -250 50 H I L CNN "Height"
+F6 "756-PCF0805R2K55BI" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=756-PCF0805R2K55BI" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "WELWYN" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "PCF0805R-2K55BI" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SRP5050FA-6R8M-SamacSys_Parts-test1-rescue
+#
+DEF SRP5050FA-6R8M-SamacSys_Parts-test1-rescue IC 0 30 Y Y 1 F N
+F0 "IC" 650 300 50 H V L CNN
+F1 "SRP5050FA-6R8M-SamacSys_Parts-test1-rescue" 650 200 50 H V L CNN
+F2 "SRP5050FA6R8M" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/SRP5050FA-6R8M.pdf" 650 0 50 H I L CNN
+F4 "Fixed Inductors Ind,5.5x5.3x4.8mm,6.8uH 20%,6.4A,Shd,SMD" 650 -100 50 H I L CNN "Description"
+F5 "5" 650 -200 50 H I L CNN "Height"
+F6 "652-SRP5050FA-6R8M" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/SRP5050FA-6R8M?qs=PzGy0jfpSMsHKvG1LSZozA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SRP5050FA-6R8M" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
